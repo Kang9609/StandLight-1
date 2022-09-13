@@ -41,7 +41,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="JMYObuIH1QSER_L9iBrt" name="페이지-2">
-        <mxGraphModel dx="331" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="516" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="Q607Y2rKxZQUFugG3BdK-0"/>
                 <mxCell id="Q607Y2rKxZQUFugG3BdK-1" parent="Q607Y2rKxZQUFugG3BdK-0"/>
@@ -58,16 +58,22 @@
                     <mxGeometry x="150" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="XUThxh31XiLSm-2z7mRA-3" value="LED" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Q607Y2rKxZQUFugG3BdK-1">
-                    <mxGeometry x="350" y="220" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="540" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="XUThxh31XiLSm-2z7mRA-6" value="이벤트 감시 기능" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="Q607Y2rKxZQUFugG3BdK-1">
                     <mxGeometry x="130" y="50" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Xn4zP_rzqBb-KwKWEkbt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Q607Y2rKxZQUFugG3BdK-1" source="Xn4zP_rzqBb-KwKWEkbt-0" target="XUThxh31XiLSm-2z7mRA-3">
+                <mxCell id="z8fZrk0xQkMEeZACTWGU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Q607Y2rKxZQUFugG3BdK-1" source="Xn4zP_rzqBb-KwKWEkbt-0" target="z8fZrk0xQkMEeZACTWGU-0">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="Xn4zP_rzqBb-KwKWEkbt-0" value="controller" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Q607Y2rKxZQUFugG3BdK-1">
                     <mxGeometry x="350" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="z8fZrk0xQkMEeZACTWGU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="Q607Y2rKxZQUFugG3BdK-1" source="z8fZrk0xQkMEeZACTWGU-0" target="XUThxh31XiLSm-2z7mRA-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="z8fZrk0xQkMEeZACTWGU-0" value="View" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Q607Y2rKxZQUFugG3BdK-1">
+                    <mxGeometry x="540" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
