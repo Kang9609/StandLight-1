@@ -7,6 +7,7 @@ add_executable(${PROJECT_NAME}
     ./src/app/Listener/Listener.cpp
     ./src/app/Controller/Controller.cpp
     ./src/app/View/View.cpp
+    ./src/app/Service/Service.cpp
     ./src/hw/Button/Button.cpp
     ./src/hw/Led/Led.cpp
 )
@@ -15,6 +16,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ./src/app/Listener
     ./src/app/Controller
     ./src/app/View
+    ./src/app/Service
     ./src/hw/Button
     ./src/hw/Led
 )

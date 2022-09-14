@@ -14,6 +14,6 @@ void Listener::checkEvent()
 {
     if (powerButton->getState() == RELEASE_ACTIVE)
     {
-        controller->updateEvent("powerButton");
+        controller->updateEvent("modeButton");
     }
 }

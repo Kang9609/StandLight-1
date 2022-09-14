@@ -2,16 +2,16 @@
 #define __CONTROLLER_H__
 
 #include <string>
-#include "View.h"
+#include "Service.h"
 
 class Controller
 {
 private:
     int lightState;
-    View *view;
+    Service *service;
 
 public:
-    Controller(View *viewer);
+    Controller(Service *service);
     virtual ~Controller();
     void updateEvent(std::string strBtn);
 };
